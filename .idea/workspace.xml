@@ -21,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../festivals" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -34,6 +34,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603224892958</updated>
       <workItem from="1603224894304" duration="307000" />
+      <workItem from="1603278046037" duration="4700000" />
     </task>
     <servers />
   </component>

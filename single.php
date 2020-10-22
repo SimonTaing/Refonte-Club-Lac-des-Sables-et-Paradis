@@ -5,7 +5,7 @@
 
     <section class="photo">
 
-        <img src="images/image 5.png" height="343" width="400"/></section>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/image 5.png" height="343" width="400"/></section>
 
     <h2>Chasse à l’orignal en Pourvoirie</h2>
 <section class="contenuinfo">

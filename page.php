@@ -26,11 +26,11 @@
                 <h3>L’OMBLE CHEVALIER À 3 HEURES DE QUÉBEC EN POURVOIRIE!</h3>
                 <p>Cette pourvoirie à droits exclusifs est située au début de la Cote Nord à Bergeronnes à peine 15 min de Tadoussac. Par la route 138, seulement 4 km à faire en forêt. Avec 18 chalets de 2 à 16 personnes. Territoire de 100 km carré avec 52 lacs de mouchetées dont le Lac des Sables et le Lac Paradis ont également de l’ombles chevaliers!</p>
             </div>
-            <img class="accueil-img-1" src="images/accueil-1.png" alt="">
+            <img class="accueil-img-1" src="<?php echo get_template_directory_uri(); ?>/images/accueil-1.png" alt="">
         </div>
 
         <div class="row-accueil invert-flex">
-            <img class="accueil-img-2" src="images/accueil-2.png" alt="">
+            <img class="accueil-img-2" src="<?php echo get_template_directory_uri(); ?>/images/accueil-2.png" alt="">
             <div class="row-accueil-text2">
                 <p>Vous savez , il faut aller dans le Grand Nord pour en attraper. Le record à battre est de 10 livres ! Les ombles chevaliers et les éperlans dont elles se nourrit se sont adaptés aux eaux douces dans les 2 grands lacs. Ce poisson trophée est fort apprécié pour sa saveur mais aussi pour le combat qu’il nous livre. Osez venir découvrir ce merveilleux coin de pays…
                     <br>
@@ -57,8 +57,8 @@
             Nos partenaires
         </h4>
         <div class="partenaires-img">
-            <img src="images/part1.png" alt="Logo Québec Original">
-            <img src="images/part2.png" alt="Logo Les Pourvoiries du Québec">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/part1.png" alt="Logo Québec Original">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/part2.png" alt="Logo Les Pourvoiries du Québec">
         </div>
     </div>
 </section>

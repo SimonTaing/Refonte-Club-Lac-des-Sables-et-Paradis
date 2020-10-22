@@ -2,7 +2,15 @@
 <footer>
     <div class="wrapper">
         <div class="footer-flex">
-            <a href="front-page.php"><img class="logo-footer" src="images/logo.png" alt="Logo"></a>
+
+
+            <a href="<?php echo esc_url(home_url('/')); ?>"
+               title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo"
+                    />
+            </a>
+
+            </a>
             <div class="footer-contenu">
                 <div class="footer-text">
                     <p>418 232-2020 (Louise ou Hélène) ou 418 233-3375 (15 mai à la fermeture)</p>
@@ -26,6 +34,6 @@
 </footer>
 
 
-
-
-<?php
+<?php wp_footer(); ?>
+</body>
+</html>

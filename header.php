@@ -3,7 +3,7 @@
 <html lang="Fr">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -12,27 +12,31 @@
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-
+    <?php wp_head(); ?>
 
 </head>
-<body>
+<body<?php body_class(); ?>>
 <header>
 
 
     <div class="logo">
-        <a href="index.php"><img src="images/logo.png"/></a>
+
+        <a href="<?php echo esc_url(home_url('/')); ?>"
+           title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo"
+                 />
+        </a>
 
     </div>
     <div id="hamburger">
         <div id="hamburger-content">
             <nav>
                 <ul class="main-nav">
-                    <li><a href="single.php">ACCEUIL</a></li>
-                    <li><a href="#">Activiter</a></li>
-                    <li><a href="#">Informations</a></li>
-                    <li><a href="#">Gallerie</a></li>
-                    <li><a href="#">Nous joindre</a></li>
-                    <li><a href="#">EN</a></li>
+                    <li><?php wp_nav_menu(array(
+                                'theme_location' => 'menu_principal',
+                                'container' => 'nav'
+                            )
+                        ); ?></li>
                 </ul>
             </nav>
         </div>
