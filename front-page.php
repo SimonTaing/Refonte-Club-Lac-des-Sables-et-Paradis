@@ -34,7 +34,7 @@
             <div class="row-accueil-text2">
                 <p>Vous savez , il faut aller dans le Grand Nord pour en attraper. Le record à battre est de 10 livres ! Les ombles chevaliers et les éperlans dont elles se nourrit se sont adaptés aux eaux douces dans les 2 grands lacs. Ce poisson trophée est fort apprécié pour sa saveur mais aussi pour le combat qu’il nous livre. Osez venir découvrir ce merveilleux coin de pays…
                     <br>
-                    <a href="">En savoir plus...</a></p>
+                    <a href="<?php echo get_template_directory_uri(); ?>/images/brochure.pdf">En savoir plus...</a></p>
             </div>
         </div>
     <div class="accueil-extra">
@@ -57,8 +57,22 @@
             Nos partenaires
         </h4>
         <div class="partenaires-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/part1.png" alt="Logo Québec Original">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/part2.png" alt="Logo Les Pourvoiries du Québec">
+            <?php
+            query_posts(array(
+                'post_type' => 'pW_commanditaire',
+                'order' => 'ASC',
+                'orderby' => 'name',
+                'post_status' => 'publish',
+            ));
+            if (have_posts()) :
+                while (have_posts()) : the_post(); ?>
+                    <img src="<?php the_field('logo') ?>" alt="">
+                <?php endwhile;
+                wp_reset_query();
+            else:
+
+            endif;
+            ?>
         </div>
     </div>
 </section>
