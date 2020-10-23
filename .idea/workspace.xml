@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="464fb4f8-497b-424a-9e5a-455ac4db1d08" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="0d986d61-3638-4151-aeed-47701a1439d4" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+<<<<<<< Updated upstream
     <execution />
+=======
+    <execution>
+      <executable />
+    </execution>
+>>>>>>> Stashed changes
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectId" id="1j9mt69NAzvgs1U32OZvuFfUp43" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,20 +45,54 @@
       <option name="presentableId" value="Default" />
       <updated>1603224892958</updated>
       <workItem from="1603224894304" duration="307000" />
-<<<<<<< HEAD
+<<<<<<< Updated upstream
       <workItem from="1603278046037" duration="7585000" />
 =======
 <<<<<<< Updated upstream
       <workItem from="1603278046037" duration="4700000" />
 =======
-      <workItem from="1603377093389" duration="973000" />
+=======
+  <component name="ProjectId" id="1j9nLCF8oTq3nXFZ8drCCKNOIBK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d986d61-3638-4151-aeed-47701a1439d4" name="Default Changelist" comment="" />
+      <created>1603225117226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603225117226</updated>
+      <workItem from="1603225121063" duration="251000" />
 >>>>>>> Stashed changes
->>>>>>> main
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
+<<<<<<< Updated upstream
     <option name="version" value="3" />
+=======
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1603225121082">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603225121082" />
+>>>>>>> Stashed changes
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="393" key="FileChooserDialogImpl" timestamp="1603376738538">

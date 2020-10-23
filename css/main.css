@@ -781,10 +781,15 @@ ul {
   background-color: white;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
-  -webkit-transition: -webkit-transform .2s ease-out;
-  transition: -webkit-transform .2s ease-out;
-  transition: transform .2s ease-out;
-  transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+  -webkit-transition: -webkit-transform .2s
+ ease-out;
+  transition: -webkit-transform .2s
+ ease-out;
+  transition: transform .2s
+ ease-out;
+  transition: transform .2s
+ ease-out, -webkit-transform .2s
+ ease-out;
 }
 
 #hamburger-sidebar li {
@@ -835,15 +840,14 @@ ul {
   line-height: inherit;
 }
 
-.link {
+.link{
   position: relative;
 }
 
-.link:after {
+.link:after{
   content: '';
   position: absolute;
-  width: 0;
-  height: 3px;
+  width: 0; height: 3px;
   display: block;
   margin-top: 5px;
   right: 0;
@@ -852,7 +856,7 @@ ul {
   -webkit-transition: width .2s ease;
 }
 
-.link:hover:after {
+.link:hover:after{
   width: 100%;
   left: 0;
   background: #D7F630;
@@ -995,10 +999,15 @@ ul {
     background-color: white;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
-    -webkit-transition: -webkit-transform .2s ease-out;
-    transition: -webkit-transform .2s ease-out;
-    transition: transform .2s ease-out;
-    transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+    -webkit-transition: -webkit-transform .2s
+ ease-out;
+    transition: -webkit-transform .2s
+ ease-out;
+    transition: transform .2s
+ ease-out;
+    transition: transform .2s
+ ease-out, -webkit-transform .2s
+ ease-out;
   }
   #hamburger-sidebar li {
     display: block;
@@ -1797,6 +1806,102 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.contenu-chalets{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contenu-chalets article{
+  background-color: white;
+  font-size: 16px;
+}
+
+.contenu-chalets article h1{
+  font-size: 24px;
+}
+
+.contenu-chalets article img{
+  width: 335px;
+  height: 159px;
+}
+
+.contenu-chalets article .tout{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.contenu-chalets article:hover{
+  background-color: #D3E0FF;
+}
+
+.contenu-chalets a:hover{
+  text-decoration: none;
+}
+
+.contenu-chalets article .tout .deuxieme{
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+
+  .contenu-chalets{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .contenu-chalets article{
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .contenu-chalets article a{
+    display: flex;
+  }
+
+  .contenu-chalets article img{
+    width: 287px;
+    height: 159px;
+  }
+
+  .contenu-chalets article .tout{
+    align-items: center;
+  }
+
+  .contenu-chalets article .tout p{
+    text-align: left;
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+  .contenu-chalets{
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  .contenu-chalets article{
+    padding: 20px;
+  }
+
+
+
+  .contenu-chalets article h1{
+    font-size: 36px;
+  }
+
+  .contenu-chalets article span{
+    font-size: 72px;
+  }
+
+  .contenu-chalets article .deuxieme{
+    padding-left: 350px;
+  }
+
 }
 
 .m-t-5 {
