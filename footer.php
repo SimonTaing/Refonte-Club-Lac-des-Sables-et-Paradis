@@ -17,8 +17,8 @@
                     <p>info@clublacdessables.com</p>
                 </div>
                 <div class="footer-media">
-                    <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
-                    <a href="https://www.youtube.com"><img src="images/yotube.png" alt="YouTube"></a>
+                    <a href="https://www.facebook.com"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.youtube.com"><img src="<?php echo get_template_directory_uri(); ?>/images/yotube.png" alt="YouTube"></a>
                 </div>
             </div>
 
