@@ -30,7 +30,7 @@
                 <ul class="main-nav">
                     <li><a class="link" href="../Club-Lac-des-Sables-et-Paradis/src/front-page.html">Accueil</a></li>
                     <li><a class="link" href="../Club-Lac-des-Sables-et-Paradis/src/single.html">Activités</a></li>
-                    <li><a class="link" href="template_chalets.php">Chalets</a></li>
+                    <li><a class="link" href="page-chalets.php">Chalets</a></li>
                     <li><a class="link" href="../Club-Lac-des-Sables-et-Paradis/src/template_contenue.html">Informations</a></li>
                     <li><a class="link" href="../Club-Lac-des-Sables-et-Paradis/src/index.html">Galerie</a></li>
                     <li><a class="link" href="#">Nous joindre</a></li>
