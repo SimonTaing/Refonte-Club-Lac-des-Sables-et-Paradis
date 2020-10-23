@@ -19,8 +19,23 @@
 
 <section class="couleurbleue wrapper">
     <section class="contenue contenu-accueil wrapper">
+
         <h2><?php the_title() ?></h2>
-        <?php the_content() ?>
+
+        <section class="contenuinfo">
+            <article class="texte">
+                <?php the_content() ?>
+            </article>
+            <section class="images">
+                <img src="<?php the_field('img1') ?>"/>
+                <img src="<?php the_field('img2') ?>"/>
+                <img src="<?php the_field('img3') ?>"/>
+            </section>
+        </section>
+
+        <?php the_field('description') ?>
+
+
     </section>
 </section>
 
