@@ -36,7 +36,7 @@
                                 'theme_location' => 'menu_principal',
                                 'container' => 'nav'
                             )
-                        ); ?></li>
+                            ); ?></li>
                 </ul>
             </nav>
         </div>
