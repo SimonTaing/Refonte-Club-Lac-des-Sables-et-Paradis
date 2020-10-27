@@ -26,31 +26,7 @@
                 <article class="texte">
                     <?php the_content() ?>
                 </article>
-                <section class="images">
-                    <img src="<?php the_field('img1') ?>" height="300px"/>
-                    <img src="<?php the_field('img2') ?>" height="300px"/>
-                    <img src="<?php the_field('img3') ?>" height="300px"/>
-                </section>
             </section>
-
-
-            <section>
-                <article class="para">
-
-                    <article class="imagecontenue">
-                        <img src="<?php the_field('img1') ?>" height="300px"/>
-                    </article>
-                    <article class="imagecontenue">
-                        <img src="<?php the_field('img2') ?>" height="300px"/>
-                    </article>
-                    <article class="imagecontenue">
-                        <img src="<?php the_field('img3') ?>" height="300px"/>
-                    </article>
-
-                    <?php the_field('description') ?>
-                </article>
-            </section>
-
         </section>
     </section>
 
