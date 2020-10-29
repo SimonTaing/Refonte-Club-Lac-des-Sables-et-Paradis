@@ -1,4 +1,4 @@
-<?php /*template name: Chalets */?>
+<?php /*template name: chalet */?>
 <?php get_header(); ?>
 
 <section class="couleurbleue wrapper">
