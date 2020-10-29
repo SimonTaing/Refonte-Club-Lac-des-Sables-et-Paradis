@@ -25,12 +25,12 @@
                         <div class="premier">
                             <div>
                                 <h1><?php echo the_title(); ?></h1>
-                                <p>10 personnes</p>
-                                <p>Éloigné du Lac-des-Sables</p>
+                                <p><?php the_field('pw_personnes') ?></p>
+                                <p><?php the_field('pw_emplacement') ?></p>
                             </div>
                         </div>
                         <div class="deuxieme">
-                            <p>200$/nuit</p>
+                            <p><?php the_field('pw_prix') ?></p>
                             <span class="material-icons">navigate_next</span>
                         </div>
                     </div>
