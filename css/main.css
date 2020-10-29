@@ -652,6 +652,26 @@ header {
   background: white;
 }
 
+body #gform_wrapper_1 .gform_footer input[type=image] {
+  /*border: 1px solid blue;*/
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=url] {
+  /*border: 1px solid blue;*/
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=tel] {
+  /*border: 1px solid blue;*/
+}
+
+body .gform_wrapper .gform_body {
+  /*border: 1px solid blue;*/
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield .ginput_container {
+  /*border: 1px solid blue;*/
+}
+
 .contenue article {
   width: 100%;
 }
