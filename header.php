@@ -9,6 +9,8 @@
 
 
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/glide.theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/glide.core.min.css" rel="stylesheet">
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
