@@ -4,7 +4,9 @@
         <h1>La Pourvoirie Club Lac des Sables et Paradis</h1>
 
         <button>
-            Réserver
+            <a href="<?php echo site_url('page-informaiton');?>">
+                Réserver
+            </a>
         </button>
     </div>
 </section>
