@@ -5,7 +5,7 @@
 
     <section class="photo">
 
-        <img src="<?php echo get_template_directory_uri(); ?>/images/image 5.png" height="343" width="400"/></section>
+        <img src="<?php the_field('pw_image_chalet')?>" height="343" width="400"/></section>
 
     <h2><?php echo the_title();?></h2>
 <section class="contenuinfo">
