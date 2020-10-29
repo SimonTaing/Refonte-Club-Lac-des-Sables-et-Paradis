@@ -34,7 +34,7 @@
                     $image = $row['image']; ?>
                     <li class="glide__slide">
                         <article>
-                             <img src="<?php echo $image?>"/>
+                             <img src="<?php echo $image?>" width="600" height="450"/>
                         </article>
                     </li>
                     <?php } ?>
