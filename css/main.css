@@ -489,7 +489,12 @@ hr.hr-large {
 img {
   /*width: 100%;*/
 }
+.glide__slide img{
 
+  width: 100%;
+
+
+}
 a:link {
   color: #212529;
   text-decoration: none;

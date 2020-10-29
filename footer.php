@@ -27,11 +27,11 @@
 
         <p>©2020</p>
 
-        <script src="<?php bloginfo('template_url'); ?>/script/script.js"></script>
     </div>
 
-
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide" defer></script>
+<script src="<?php bloginfo('template_url'); ?>/js/script.js" type="module"></script>
 
 
 <?php wp_footer(); ?>
