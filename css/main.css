@@ -675,16 +675,13 @@ header {
   text-align: center;
   letter-spacing: 0.12em;
 }
+#hamburger-content li{
 
-#hamburger-content nav {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding: 20px;
+
+
 }
+
 
 #hamburger-content ul {
   display: -webkit-box;
