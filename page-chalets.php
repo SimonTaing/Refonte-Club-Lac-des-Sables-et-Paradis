@@ -20,7 +20,7 @@
 
             <article>
                 <a href="<?php the_permalink(); ?>">
-                    <img src="<?php the_field('pw_image_chalets') ?>" alt="<?php echo the_title(); ?>"/>
+                    <img src="<?php the_field('pw_image_chalet') ?>" alt="<?php echo the_title(); ?>"/>
                     <div class="tout">
                         <div class="premier">
                             <div>
