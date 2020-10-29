@@ -844,11 +844,11 @@ ul {
   line-height: inherit;
 }
 
-.link{
+header #hamburger a{
   position: relative;
 }
 
-.link:after{
+header #hamburger a:after{
   content: '';
   position: absolute;
   width: 0; height: 3px;
@@ -860,7 +860,7 @@ ul {
   -webkit-transition: width .2s ease;
 }
 
-.link:hover:after{
+header #hamburger a:hover:after{
   width: 100%;
   left: 0;
   background: #D7F630;
