@@ -8,7 +8,7 @@
         <?php $indexquerry2=1;
 
         query_posts(array(
-            'post_type'=>'chalets',
+            'post_type'=>'pW_chalet',
             'order'=>'ASC',
             'post_status'=>'publish',
             'showposts'=>-1
