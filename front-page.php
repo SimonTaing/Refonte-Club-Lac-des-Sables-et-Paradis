@@ -44,13 +44,14 @@
 
         <h4>Venez nous voir en grand nombre à la pourvoirie!</h4>
 
-        <button>
-            Réserver
-        </button>
-    </div>
+        <a href="<?php echo site_url('information');?>">
+            <button>
+                Réserver
+            </button>
+        </a>
 
-
-    </section>
+        </section>
+    
 </section>
 
 <section class="partenaires wrapper">

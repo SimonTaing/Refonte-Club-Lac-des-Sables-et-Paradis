@@ -2,14 +2,11 @@
 <section class="hero">
     <div class="containertexte">
 
-        <button>
-
-        <h1>
-            Réserver
-
-
-        </h1>
-        </button>
+        <a href="<?php echo site_url('information');?>">
+            <button>
+                Réserver
+            </button>
+        </a>
 
 </div>
 </section>

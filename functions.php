@@ -15,9 +15,7 @@ add_filter("excerpt_length","new_excerpt_length");
 function creermenu(){
 
     register_nav_menus(array(
-        "menu_pricipal"=>"Menu principal",
-        "menu_footer"=>"Menu footer",
-        "menu_sociaux"=>"Menu Sociaux",
+        "menu_pricipal"=>"Menu principal"
     ));
 
 // Register Custom Post Type

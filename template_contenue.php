@@ -1,18 +1,15 @@
 <?php get_header(); ?>
-<section class="hero">
-    <div class="containertexte">
+    <section class="hero">
+        <div class="containertexte">
+            <h1>La Pourvoirie Club Lac des Sables et Paradis</h1>
 
-        <button>
-
-        <h1>
-            Réserver
-
-
-        </h1>
-        </button>
-
-</div>
-</section>
+            <a href="<?php echo site_url('information');?>">
+                <button>
+                    Réserver
+                </button>
+            </a>
+        </div>
+    </section>
 
 
 

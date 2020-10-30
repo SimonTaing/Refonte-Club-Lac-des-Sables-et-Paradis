@@ -3,11 +3,11 @@
         <div class="containertexte">
             <h1>La Pourvoirie Club Lac des Sables et Paradis</h1>
 
-            <button>
-                <a href="<?php echo site_url('information');?>">
+            <a href="<?php echo site_url('information');?>">
+                <button>
                     Réserver
-                </a>
-            </button>
+                </button>
+            </a>
         </div>
     </section>
 

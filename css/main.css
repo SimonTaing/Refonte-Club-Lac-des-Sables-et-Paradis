@@ -137,6 +137,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
+  color: inherit;
   background-color: transparent;
 }
 
@@ -652,26 +653,6 @@ header {
   background: white;
 }
 
-body #gform_wrapper_1 .gform_footer input[type=image] {
-  /*border: 1px solid blue;*/
-}
-
-body .gform_wrapper .gform_body .gform_fields .gfield input[type=url] {
-  /*border: 1px solid blue;*/
-}
-
-body .gform_wrapper .gform_body .gform_fields .gfield input[type=tel] {
-  /*border: 1px solid blue;*/
-}
-
-body .gform_wrapper .gform_body {
-  /*border: 1px solid blue;*/
-}
-
-body .gform_wrapper .gform_body .gform_fields .gfield .ginput_container {
-  /*border: 1px solid blue;*/
-}
-
 .contenue article {
   width: 100%;
 }
@@ -1106,6 +1087,18 @@ footer {
   text-align: center;
 }
 
+footer a {
+  color: inherit;
+}
+
+footer a:hover {
+   color: #fff;
+ }
+
+footer a:visited {
+   color: #fff;
+ }
+
 footer div.footer-flex {
   padding: 30px 0;
   display: -webkit-box;
@@ -1247,6 +1240,8 @@ button:hover {
 }
 
 .hero button a {
+  color: inherit;
+  text-decoration: none;
   font-size: 2.25rem;
 }
 
@@ -1802,39 +1797,40 @@ input[type=text], select, textarea {
   /* Full width */
   padding: 12px;
   /* Some padding */
-  border: 1px solid #ccc;
+  border: 3px solid #CCC;
   /* Gray border */
-  border-radius: 4px;
+  border-radius: 23px;
   /* Rounded borders */
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   /* Make sure that padding and width stays in place */
   margin-top: 6px;
-  /* Add a top margin */
-  margin-bottom: 16px;
-  /* Bottom margin */
   resize: vertical;
+
+  box-shadow: inset 0 0 5px rgba(0,0,0, 0.2);
+}
+
+input[type=text]{
+  height: 60px;
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
+  border: 5px solid black;
   cursor: pointer;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  color: #BF3636;
+  border: 5px solid #BF3636;
 }
 
 /* Add a background color and some padding around the form */
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 20px;
 }
 

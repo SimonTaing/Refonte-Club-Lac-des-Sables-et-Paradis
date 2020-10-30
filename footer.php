@@ -25,7 +25,7 @@
         </div>
 
 
-        <p>©2020</p>
+        <a href="<?php echo site_url('copyright');?>"><p>Frédéric Brisson - Stéphane Thibert - Simon Taing</p></a>
 
     </div>
 
