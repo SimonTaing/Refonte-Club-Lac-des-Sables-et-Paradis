@@ -35,15 +35,7 @@
     </div>
     <div id="hamburger">
         <div id="hamburger-content">
-            <nav>
-                <ul class="main-nav">
-                    <li><?php wp_nav_menu(array(
-                                'theme_location' => 'menu_principal',
-                                'container' => 'nav'
-                            )
-                            ); ?></li>
-                </ul>
-            </nav>
+            <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
         </div>
         <button id="hamburger-button"><i class="fas fa-bars"></i></button>
         <div id="hamburger-sidebar">
