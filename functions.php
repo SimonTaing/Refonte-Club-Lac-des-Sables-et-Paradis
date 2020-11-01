@@ -1,6 +1,24 @@
 <?php
 
-add_theme_support("menu");
+// on vérifie si acf pro est installé
+if ( function_exists('acf_add_options_page') ) {
+// on ajoute une page d'option
+    acf_add_options_page(array(
+        'page_title' => 'Options générales de mon thème',
+        'menu_title' => 'Options du thème',
+        'menu_slug' => 'cw4-theme-options',
+        'capability' => 'edit_posts',
+        'redirect' => false
+    ));
+// on ajoute une sous-page à la page précédente via le paramètre parent_slug
+    acf_add_options_sub_page(array(
+        'page_title' => 'Options du pied de page',
+        'menu_title' => 'Pied de page',
+        'parent_slug' => 'cw4-theme-options',
+    ));
+}
+
+
 add_theme_support("post_thumbnails");
 set_post_thumbnail_size(800,480);
 add_image_size("vignette",220,100,true);

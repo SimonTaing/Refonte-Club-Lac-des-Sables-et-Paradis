@@ -11,12 +11,15 @@
             </a>
         </div>
     </section>
+
+<?php if(get_field('pw_promo_toggle', 'option') === true) { ?>
     <section class="promotions">
         <div class="proinfo">
             <h4>Promotion!</h4>
-            <p>Profitez de 30% de rabais durant la fin de semaine du 5 au 7 septembre!</p>
+            <p><?php echo the_field('pw_promo_txt' , 'option');?></p>
         </div>
     </section>
+<?php } ?>
 
 <section class="couleurbleue wrapper">
 
